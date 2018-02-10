@@ -1,4 +1,4 @@
-# Version 8.1.4 Made for Pythonista 3 By: SavSec - I 
+# Version 8.1.4 Made for Pythonista 3 By: SavSec - I
 # Don't Give A Fuck License -
 import random, sys, clipboard
 def blood():

@@ -1,2 +1,24 @@
-# Rainbow_Fun
-Fade and Rainbow Scripts that have been messed with for ages.
+# ____Rainbow_Fun____ #
+## Fade and Rainbow Scripts that have been messed with for ages.
+### This is a SavSec origonal, it's been changed so many times and
+### all you color sets i have made and use on hackers games are here.
+
+# Hope You Enjoy As Much As I Have.
+
+# Origonal Rainfade From SavSec_Ro The Russian Otter...
+# Rainfade Provides a Smooth Transition In Between Each Set Of Color
+
+#### - Just Copy & Paste The Generated Messages - ####
+You will be asked for a msg to enter
+
+# A list of your colous to use for text...    # CHANGE AS NEEDED # 
+colors = ["#ff0000","#ff4909","#ff7100","#ffac00","#eeff00","#b1ff00",'#27ff00','#09ff00','#00ff21','#00ff9b','#00ffd8','#00deff','#009bff','#0059ff','#0016ff','#5700ff','#b100ff','#f400ff','#ff00c8','#ff0085','#ff0043']
+
+# msg is your msg text, graabbed by raw_input
+msg = raw_input("Rainfade_Message: ")
+
+# Will fit the codes in and remove '#000000' to [000000]
+new = new + colors[s].replace("#","[") + "]" + _
+
+# This prints all the pre-tag
+print "[c][i][b]" + new + msgb + "\n"

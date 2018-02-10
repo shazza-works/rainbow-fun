@@ -1,7 +1,5 @@
-
 # Made By: SavSec
 # - I Don't Give A Fuck License -
-
 def rainfade():
 	# Rainfade Provides a Smooth Transition In Between Each Set Of Color
 	print " - Just Copy & Paste The Generated Messages - \n"
