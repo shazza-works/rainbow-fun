@@ -1,4 +1,4 @@
-####____Rainbow_Fun____
+##### ____Rainbow_Fun____
 - Fade and Rainbow Scripts that have been messed with for ages. This is a 
 SavSec origonal, it's been changed so many times and all you color sets i 
 have made and use on hackers games are here.
@@ -7,7 +7,7 @@ have made and use on hackers games are here.
 Russian Otter... Rainfade Provides a Smooth Transition In Between Each Set 
 Of Color.
 
-####____How To Use____
+##### ____How To Use____
 - [ADDED BY REQUEST]
 - To use this on your phone you will need to install a terminal or 
 an idle, I use termux from the Android Play Store, Please install Termux 
