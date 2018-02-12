@@ -12,13 +12,13 @@
      - [To use this on your phone you will need to install a terminal 
 	or idle, I use termux from the Android Store, Please install Termux
 	and thaen give the commands]
-	'''
+	'''sh
 	pkg install python*
 	pkg update
 	pkg upgrade -y
 	'''
 	After this you will be able to download the bow.py script with,
-	'''
+	'''sh
 	git clone https://github.com/shazza-works/Rainbow_Fun/
 	cd Rainbow_Fun
 	python2 bow.py
