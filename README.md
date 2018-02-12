@@ -8,24 +8,28 @@
 ### Rainfade Provides a Smooth Transition In Between Each Set Of Color
 
 		##How To Use This...
-     - [ ADDED BY REQUEST ]
+     - [ADDED BY REQUEST]
      - [To use this on your phone you will need to install a terminal 
 	or idle, I use termux from the Android Store, Please install Termux
 	and thaen give the commands]
-	'''sh
+
+	```sh
 	pkg install python*
 	pkg update
 	pkg upgrade -y
-	'''
+	```
+
 	After this you will be able to download the bow.py script with,
-	'''sh
+
+	```sh
 	git clone https://github.com/shazza-works/Rainbow_Fun/
 	cd Rainbow_Fun
 	python2 bow.py
-	'''
+	```
+
      - [You should now see the request for a message, Just type and 
 	press Return, and copy and past to Hackers.]
-     - [ HOPE THIS HELPS ]
+     - [HOPE THIS HELPS?]
 
 ### You will be asked for a msg to enter
 #### - Just Copy & Paste The Generated Messages - ##
