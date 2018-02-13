@@ -12,7 +12,6 @@ Of Color.
 - To use this on your phone you will need to install a terminal or 
 an idle, I use termux from the Android Play Store, Please install Termux 
 and give these commands.
-
 ```sh
 pkg install python*
 pkg update
@@ -20,10 +19,9 @@ pkg upgrade -y
 ```
 
 - After this you will be able to download the bow.py script with.
-
 ```sh
-git clone https://github.com/shazza-works/Rainbow_Fun/
-cd Rainbow_Fun
+git clone https://github.com/shazza-works/rainbow-fun/
+cd rainbow-fun
 python2 bow.py
 ```
 
@@ -31,17 +29,17 @@ python2 bow.py
 	Return, and copy and past to Hackers.
 - [HOPE THIS HELPS?]
 
-	You will be asked for a msg to enter
--  Just Copy & Paste The Generated Messages
+- You will be asked for a msg to enter
+	Just Copy & Paste The Generated Messages
 
+- A list of your colous to use for text...   <CHANGE YOUR SET AS NEEDED>
 	colors = ["#ff0000","#ff4909","#ff7100","#ffac00","#eeff00","#b1ff00",'#27ff00','#09ff00','#00ff21','#00ff9b','#00ffd8','#00deff','#009bff','#0059ff','#0016ff','#5700ff','#b100ff','#f400ff','#ff00c8','#ff0085','#ff0043']
-- A list of your colous to use for text...   <CHANGE AS NEEDED>
 
+- msg is your msg text, grabbed by raw_input.
 	msg = raw_input("Rainfade_Message: ")
-- msg is your msg text, graabbed by raw_input
 
-	new = new + colors[s].replace("#","[") + "]" + _
 - Will fit the codes in and remove '#000000' to [000000]
+	new = new + colors[s].replace("#","[") + "]" + _
 
+- This prints all the pre-tag and print msg.
 	print "[c][i][b]" + new + msgb + "\n"
-- This prints all the pre-tag
