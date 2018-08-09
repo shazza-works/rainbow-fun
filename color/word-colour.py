@@ -13,9 +13,9 @@ def word_color():
 	msgb = ""
 	while 1:
 		msg = input("Each_Word_Message: ")
-		if len(msg) >= 999:
-			msgb = msg[999:]
-			msg = msg[:999]
+		if len(msg) >= 150:
+			msgb = msg[80:]
+			msg = msg[:80]
 		msg = msg.split()
 		for _ in msg:
 			if s == len(colors):
