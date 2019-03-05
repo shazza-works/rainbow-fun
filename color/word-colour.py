@@ -1,8 +1,9 @@
 import subprocess
 
 def copy2clip(txt):
-    cmd='echo '+txt.strip()+' | termux-clipboard-set'
-    return subprocess.check_call(cmd, shell=True)
+	msg = txt.replace("'", "\\'").strip()
+	cmd = 'echo ' + msg + ' | termux-clipboard-set'
+	return subprocess.check_call(cmd, shell=True)
 
 def word_color():
 	print(" - Press [Enter] To Copy The Generated Messages - \n\n")
@@ -13,9 +14,11 @@ def word_color():
 	msgb = ""
 	while 1:
 		msg = input("Each_Word_Message: ")
+		msg = msg.replace("'", "\'")
+		#msg = msg.replace("@", " ")
 		if len(msg) >= 150:
-			msgb = msg[80:]
-			msg = msg[:80]
+			msgb = msg[150:]
+			msg = msg[:150]
 		msg = msg.split()
 		for _ in msg:
 			if s == len(colors):

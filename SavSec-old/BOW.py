@@ -8,7 +8,7 @@ def rainfade():
 	new = ""
 	msgb = ""
 	while 1:
-		msg = raw_input("Message: ")
+		msg = raw_input("Message: ").decode('utf-8')
 		if len(msg) >= 22:
 			msgb = msg[22:]
 			msg = msg[:22]
