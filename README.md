@@ -10,5 +10,7 @@ __Made_For_Termux__
 Use;
 `
 	chmod u+x filename
+`
+`
 	./filename
 `
