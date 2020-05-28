@@ -3,4 +3,12 @@
 
 - Hope You Enjoy As Much As I Have.
 
-- THE ALL NEW SETS
+- THE ALL NEW SETS - if you don't see a msg on screen its in your clipboard.
+
+__Made_For_Termux__
+
+Use;
+`
+	chmod u+x filename
+	./filename
+`
