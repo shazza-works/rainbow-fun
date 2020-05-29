@@ -7,10 +7,10 @@
 
 __Made_For_Termux__
 
-Use;
-` git clone https://github.com/shazza-works/rainbow-fun.git `
-` chmod u+x rainbow-fun/new/* rainbow-fun/tools/* rainbow-fun/color/xbin/* `
-` cd rainbow-fun/new `\n
-` ./hackers-done-app `
+__Use;__
+`` git clone https://github.com/shazza-works/rainbow-fun.git ``.
+`` chmod u+x rainbow-fun/new/* rainbow-fun/tools/* rainbow-fun/color/xbin/* ``
+`` cd rainbow-fun/new ``
+`` ./hackers-done-app ``
 
 - The rest you can cd to and run with ./filename
